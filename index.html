@@ -23,13 +23,7 @@
             <div class=" navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Login.html">Sign In</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Checkout</a>
+                        <a id="navbar" class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -37,19 +31,27 @@
                             Shop
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Mensproducts.html">Kits</a></li>
-                            <li><a class="dropdown-item" href="Womensproducts.html">Fashion</a></li>
-                            <li><a class="dropdown-item" href="Kidsproducts.html">Accessories</a></li>
+                            <li><a class="dropdown-item" href="kitproducts.html">Kits</a></li>
+                            <li><a class="dropdown-item" href="fashionproducts.html">Fashion</a></li>
+                            <li><a class="dropdown-item" href="accessoryproducts.html">Accessories</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navbar" class="nav-link" href="login.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navbar" class="nav-link" href="checkout.html">Checkout</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--added stand alone image to homepage -->
-    <img src="https://shop.realmadrid.com/cdn/shop/files/herobanner_desktop_2_f9ff8dad-5ba3-45a5-8c14-b6608ff33ca6_2000x.jpg?v=1713170935" width="100%" height="50%">
-<!-- added 2 paragraphs to homepage-->
+    <img src="https://shop.realmadrid.com/cdn/shop/files/herobanner_desktop_2_f9ff8dad-5ba3-45a5-8c14-b6608ff33ca6_2000x.jpg?v=1713170935"
+        width="100%" height="50%">
+    <!-- added 2 paragraphs to homepage-->
     <section>
+        <h1 class="text-center">About us</h1>
         <p> Through our collections we blur the borders between high fashion and high performance. Like our adidas by
             Stella McCartney athletic clothing collection designed to look the part inside and outside of the gym. Or
             some of our adidas Originals lifestyle pieces, that can be worn as sports apparel too. Our lives are
@@ -63,32 +65,26 @@
             width="33%" height="75%">
         <img src="https://shop.realmadrid.com/cdn/shop/files/nav-menu-y3-travel_956x425.jpg?v=1711023782" width="33%"
             height="75%">
-            <!-- added an unordered list to homepage -->
+        <!-- added an unordered list to homepage -->
         <div>
-            <ul>
-                <li>Products</li>
-                <li>Shoes</li>
-                <li>Clothing</li>
-                <li>Accessories</li>
-                <li>Gift Cards</li>
-                <br>
-                <li>New Arivals</li>
-                <li>Best sellers</li>
-                <li>Sale</li>
-            </ul>
-            <ul>
-                <li>Sports</li>
-                <li>Soccer</li>
-                <li>Running</li>
-                <li>Basketball</li>
-                <li>Football</li>
-            </ul>
+            <div class="card">
+                <div class="card-body ">
+                    <p id="joinclub" class="card-text p-4"> Join the club and get 15% off <br><br> <a href="login.html"
+                            class="btn btn-dark">sign up for free</a></p>
+                    <ul>
+                        <h4 id="footer1">Products</h4>
+                        <br>
+                        <li id="footer"><a href="kitproducts.html">Kits</a></li>
+                        <li id="footer"><a href="fashionproducts.html">Fashion</a></li>
+                        <li id="footer"><a href="accessoryproducts.html">Accessories</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </section>
-    <!-- including bootstrap javascript file -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        <!-- including bootstrap javascript file -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
