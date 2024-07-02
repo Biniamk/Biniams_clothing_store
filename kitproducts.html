@@ -1,182 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kits</title>
-     <!-- include bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kits</title>
+  <!-- include bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-<!--Added navbar to Mensproducts.html-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Biniams clothing</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class=" navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto ">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Login.html">Sign In</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Checkout</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Shop
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Mensproducts.html">Kits</a></li>
-                            <li><a class="dropdown-item" href="Womensproducts.html">Womens</a></li>
-                            <li><a class="dropdown-item" href="Kidsproducts.html">Kids</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-<!--Added cards with product images-->
-    <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/products/rmcfmz0127_500x480.jpg?v=1707138155" class="card-img-top" alt="...">
+  <!--Added navbar to Kits page-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Biniams clothing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class=" navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="kitproducts.html">Kits</a></li>
+              <li><a class="dropdown-item" href="fashionproducts.html">Fashion</a></li>
+              <li><a class="dropdown-item" href="accessoryproducts.html">Accessories</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="checkout.html">Checkout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+
+  <section>
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <p>Kits 23/24</p>
+      </blockquote>
+      <cite title="Source Title">Authenic Mens Womens Kids Jerseys</cite>
+    </figure>
+  </section>
+
+  <!--Added cards with product images-->
+
+  <div class="row row-cols-1 row-cols-lg-4 g-0">
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img src="https://shop.realmadrid.com/cdn/shop/products/rmcfmz0127_500x480.jpg?v=1707138155"
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Home Kit 23/24</h5>
           <p class="card-text">Authentic Men's Jersey White </p>
+          <h6>$150</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
       </div>
+    </div>
 
-      <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/files/Rocio_2048x.png?v=1707140683" class="card-img-top" alt="...">
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6ebc2e8b8fd44d92a84111595567e820_9366/Real_Madrid_23-24_Home_Jersey_White_IB0016_HM1.jpg"
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Home Kit 23/24</h5>
-          <p class="card-text">Authentic Women's Jersey White </p>
+          <p class="card-text">Authentic Women's Jersey White</p>
+          <h6>$150</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
       </div>
+    </div>
 
-      <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFYO0029_01_6c6e2e61-a105-4336-9c65-25d061999149_500x480.jpg?v=1707138192" class="card-img-top" alt="...">
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://shop.realmadrid.com/cdn/shop/products/RMCFYO0029_01_6c6e2e61-a105-4336-9c65-25d061999149_500x480.jpg?v=1707138192"
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Home Kit 23/24</h5>
           <p class="card-text">Authentic Kids Jersey White </p>
+          <h6>$110</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
       </div>
+    </div>
 
-      <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/files/nav-menu-away_58a36b80-c9bf-4030-8887-5ef2889434d7_150x150.jpg?v=1707139901" class="card-img-top" alt="...">
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://shop.realmadrid.com/cdn/shop/files/nav-menu-away_58a36b80-c9bf-4030-8887-5ef2889434d7_150x150.jpg?v=1707139901"
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Second Kit 23/24</h5>
           <p class="card-text">Authentic Men's Jersey Navy Blue </p>
+          <h6>$150</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
       </div>
+    </div>
 
-      <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFLZ0032-03_20df64af-21a1-465b-8c29-8682ab33d3c2_500x480.jpg?v=1707138429" class="card-img-top" alt="...">
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://shop.realmadrid.com/cdn/shop/products/RMCFLZ0032-03_20df64af-21a1-465b-8c29-8682ab33d3c2_500x480.jpg?v=1707138429"
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Second Kit 23/24</h5>
           <p class="card-text">Authentic Women's Jersey Navy Blue</p>
+          <h6>$150</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
       </div>
+    </div>
 
-      <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFIO0004-01_c4472140-fb71-49c3-ae48-80a7cc98a049_500x480.jpg?v=1707138455 " class="card-img-top" alt="...">
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://shop.realmadrid.com/cdn/shop/products/RMCFIO0004-01_c4472140-fb71-49c3-ae48-80a7cc98a049_500x480.jpg?v=1707138455 "
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Second Kit 23/24</h5>
           <p class="card-text">Authentic Kid's Jersey Navy Blue</p>
+          <h6>$110</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
       </div>
-    
-      <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFMZ0135-02_500x480.jpg?v=1707138626" class="card-img-top" alt="...">
+    </div>
+
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFMZ0135-02_500x480.jpg?v=1707138626"
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Third Kit 23/24</h5>
           <p class="card-text">Authentic Men's Jersey Black</p>
+          <h6>$150</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
+      </div>
+    </div>
 
-      <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/files/navegation_image-desktop_840e942e-a097-4b25-8e7d-c38702922b79_150x150.jpg?v=1691660685" class="card-img-top" alt="...">
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://shop.realmadrid.com/cdn/shop/files/navegation_image-desktop_840e942e-a097-4b25-8e7d-c38702922b79_150x150.jpg?v=1691660685"
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Third Kit 23/24</h5>
           <p class="card-text">Authentic Women's Jersey Black</p>
+          <h6>$150</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
+      </div>
+    </div>
 
-      <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFYO0031_01_1b445270-19a7-4774-b5fd-f84b1ae6faaf_500x480.jpg?v=1707138545" class="card-img-top" alt="...">
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://shop.realmadrid.com/cdn/shop/products/RMCFYO0031_01_1b445270-19a7-4774-b5fd-f84b1ae6faaf_500x480.jpg?v=1707138545"
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Third Kit 23/24</h5>
           <p class="card-text">Authentic Kid's Jersey Black</p>
+          <h6>$110</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
+      </div>
+    </div>
 
-        
-      <div class="card" style="width: 10rem;">
-        <img src="https://shop.realmadrid.com/cdn/shop/files/pod_y3-landing_y_home_page_500x.jpg?v=1711444377" class="card-img-top" alt="...">
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img src="https://shop.realmadrid.com/cdn/shop/files/pod_y3-landing_y_home_page_500x.jpg?v=1711444377"
+          class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"> Forth Kit 23/24</h5>
           <p class="card-text">Authentic Men's Jersey Purple</p>
+          <h6>$150</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
           <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
+      </div>
+    </div>
 
-        <div class="card" style="width: 10rem;">
-            <img src="https://shop.realmadrid.com/cdn/shop/files/nav-menu-goalkeeper_ab373560-c77a-4a1f-9457-561e610ff8a3_150x150.jpg?v=1707139928" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"> Goalkeeper Kit 23/24</h5>
-              <p class="card-text">Authentic Women's Goalkeeper Jersey Green 23/24</p>
-              <a href="#" class="btn btn-primary">Add to cart</a>
-            </div>
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://shop.realmadrid.com/cdn/shop/files/nav-menu-goalkeeper_ab373560-c77a-4a1f-9457-561e610ff8a3_150x150.jpg?v=1707139928"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Goalkeeper Kit 23/24</h5>
+          <p class="card-text">Authentic Women's Jersey Green</p>
+          <h6>$100</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
 
-            <div class="card" style="width: 10rem;">
-                <img src="https://shop.realmadrid.com/cdn/shop/files/navegation_image-baloncesto_150x150.jpg?v=1692175382" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title"> Basketball Kit 23/24</h5>
-                  <p class="card-text">Men's Basketball Home Jersey White</p>
-                  <a href="#" class="btn btn-primary">Add to cart</a>
-                </div>
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img src="https://shop.realmadrid.com/cdn/shop/files/navegation_image-baloncesto_150x150.jpg?v=1692175382"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Basketball Kit 23/24</h5>
+          <p class="card-text">Men's Basketball Home Jersey White</p>
+          <h6>$90</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
 
-                <div class="card" style="width: 10rem;">
-                    <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFMZ0125-01_500x480.jpg?v=1691681029" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title"> Basketball Kit 23/24</h5>
-                      <p class="card-text">Men's Basketball Second Jersey Navy Blue </p>
-                      <a href="#" class="btn btn-primary">Add to cart</a>
-                    </div>
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFMZ0125-01_500x480.jpg?v=1691681029"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Basketball Kit 23/24</h5>
+          <p class="card-text">Men's Basketball Second Jersey Navy Blue </p>
+          <h6>$90</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
 
-                    <div class="card" style="width: 10rem;">
-                        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFMP0145-03_500x480.jpg?v=1691681042 " class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title"> Basketball Shorts 23/24</h5>
-                          <p class="card-text">Men's Basketball Short Home Jersey White</p>
-                          <a href="#" class="btn btn-primary">Add to cart</a>
-                        </div>
-                        <div class="card" style="width: 10rem;">
-                            <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFMP0144-01_500x480.jpg?v=1691681035" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title"> Basketball Shorts 23/24</h5>
-                              <p class="card-text">Men's Basketball Short Home Jersey White</p>
-                              <a href="#" class="btn btn-primary">Add to cart</a>
-                            </div>
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFMP0145-03_500x480.jpg?v=1691681042 "
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Basketball Shorts 23/24</h5>
+          <p class="card-text">Men's Basketball Short Home Jersey White</p>
+          <h6>$60</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
 
-                
-    
+    <div class="col ">
+      <div class="card" style="width: 20rem;">
+        <img src="https://shop.realmadrid.com/cdn/shop/products/RMCFMP0144-01_500x480.jpg?v=1691681035"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Basketball Shorts 23/24</h5>
+          <p class="card-text">Men's Basketball Short Home Jersey White</p>
+          <h6>$60</h6>
+          <button type="button" class="btn btn-outline-dark">XS</button>
+          <button type="button" class="btn btn-outline-dark">S</button>
+          <button type="button" class="btn btn-outline-dark">M</button>
+          <button type="button" class="btn btn-outline-dark">L</button>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
 
-      <!-- including bootstrap javascript file -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <!-- including bootstrap javascript file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
 </body>
-</html> 
+
+</html>
